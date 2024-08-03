@@ -1,0 +1,157 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto';
+    margin: 0px;
+}
+.top{
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    color: #f9faf9;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 300px;
+    align-items: center;
+    margin: 16px;
+    margin-bottom: 80px;
+
+}
+.trophy{
+    height: 200px;
+    width: auto;
+}
+.sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 8px;
+}
+.text{
+    height: auto;
+    width: 350px;
+}
+h3{
+    font-size: 48px;
+}
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 2px 16px;
+    border-radius: 5px;
+}
+.sign-up{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.image{
+    margin: 16px;
+}
+.Header-logo{
+    display: flex;
+    flex-direction: row;
+    padding: 8px white;
+    align-items: center;
+    justify-content: baseline;
+}
+.Header-links{
+    display: flex;
+    flex-direction: row;
+}
+.Header-link{
+   margin: 8px;
+   color: #e5e7eb;
+   text-decoration: none;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grouped-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+.thumbnail{
+    width: 150px;
+    height: 150px;
+    border: 3px #3882F6 solid;
+    border-radius: 5px;
+}
+.box{
+text-align: center;
+margin-bottom: 50px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+.quote-text{
+    display: flex;
+    font-style: italic;
+    font-size: 36px;
+    padding: 40px 500px;
+    padding-bottom: 10px;
+
+}
+.quote-name{
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
+    margin-right: 550px;
+}
+.popup{
+    background-color: #3882F6;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+}
+.outer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 140px;
+    align-items: center;
+    padding: 10px 250px;
+}
+.popup-text{
+    text-align: baseline;
+    margin: 3px;
+}
+.popup-button-outer{
+    display: flex;
+    justify-content: end;
+}
+.popup-button{
+    border:3px #e5e7eb solid;
+    text-align: end;
+}
+
+.bottom{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    margin: 0px;
+}
